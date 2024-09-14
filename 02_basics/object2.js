@@ -73,4 +73,43 @@ const users =[{
 // console.log(Object.entries(tinderuser)); 
 
 
-console.log(tinderuser.hasOwnProperty('isloggedin'));
+// console.log(tinderuser.hasOwnProperty('isloggedin'));
+
+
+
+//destructuring
+const course = {
+    name:"js",
+    price:999,
+    instructor:"hitesh"
+}
+const{instructor} = course
+// course.instructor  
+const {instructor:teacher} = course
+
+console.log(instructor) 
+console.log(teacher)
+
+//react portion
+// const navbar = ({company})=>{
+
+// }
+
+// navbar(company = "hitesh")
+
+//API CONCEPT
+
+
+//treated as json keys->string value->string
+// {
+//     "name":"jasmeet",
+//     "coursename":"js",
+//     "price":999 
+// }
+
+//2nd method of getting data this is in arrays
+// [
+//     {},
+//     {},
+//     {}
+// ]
